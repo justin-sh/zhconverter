@@ -14,5 +14,8 @@
             "email": "lijt2007@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-mbstring": "*",
+        "illuminate/support":"^10"
+    }
 }
