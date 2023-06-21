@@ -8,6 +8,6 @@ class LaravelZhconverter extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'ZhConvert';
+        return 'convert';
     }
 }

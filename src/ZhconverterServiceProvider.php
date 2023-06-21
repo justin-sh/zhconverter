@@ -8,7 +8,7 @@ class ZhconverterServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->app->singleton(Converter::class, function () {
+        $this->app->singleton("convert", function () {
             return new Converter();
         });
     }
